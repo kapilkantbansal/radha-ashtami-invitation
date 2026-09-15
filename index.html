@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Sri Sri Radha Krishna | Pre-Radhashtami Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Full-bleed ambient backdrop fill (identical to Vercel site) -->
+  <div class="backdrop-fill" id="backdropFill" aria-hidden="true">
+    <img src="images/poster.jpg" alt="">
+  </div>
+
+  <!-- Devotional Background Music (Radha Krishna Theme) -->
+  <audio id="bgMusic" src="bgm.mp3" preload="auto" loop></audio>
+
+  <!-- Ambient Floating Flower Petals Canvas -->
+  <canvas id="petals-canvas" class="petals-canvas"></canvas>
+
+  <!-- Sacred Darshan Stage Container -->
+  <main class="darshan-wrapper" id="mainWrapper">
+
+    <!-- Royal Devotional Frame - Holds the sharp poster and opening video -->
+    <div class="darshan-frame" id="darshanFrame">
+
+      <!-- 1. The Opening Video (Muted, 0s to 5.7s Golden Line Formation) -->
+      <video 
+        id="darshanVideo" 
+        class="darshan-video" 
+        src="wait_you_changed_the_last_imag.mp4" 
+        playsinline 
+        muted 
+        autoplay 
+        preload="auto">
+      </video>
+
+      <!-- 2. Celestial Golden Bloom Overlay (Activates at 5.7s for Seamless Transition) -->
+      <div id="bloomOverlay" class="bloom-overlay"></div>
+
+      <!-- 3. Image 1: Pre-Radhashtami Celebration Poster (Blooms in at 5.7s) -->
+      <img 
+        id="finalImage" 
+        class="darshan-final-img" 
+        src="images/poster.jpg" 
+        alt="Sri Sri Radha Krishna Pre-Radhashtami Celebration">
+
+      <!-- 4. Glowing Sacred Lotus Feet Button with Golden Rippling Ring -->
+      <div id="lotusFeetTouchZone" class="lotus-feet-zone">
+        <button id="lotusFeetBtn" class="lotus-feet-interactive-btn" aria-label="Touch Lord's Lotus Feet to Open Invitation">
+          <!-- Animated Golden Glowing Aura Ring -->
+          <div class="lotus-glow-aura"></div>
+          <div class="lotus-ring-pulse"></div>
+          <div class="lotus-ring-pulse-outer"></div>
+          
+          <!-- Golden Indicator Pointing Directly to Lotus Feet -->
+          <div class="lotus-pointer-callout" id="lotusCallout">
+            <span class="callout-hand">👆</span>
+            <span class="callout-pill">Touch Lotus Feet</span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ====================================================================
+         5. FLOATING POPUP INVITATION CARD (Exact Vercel Style Over Blurred Background)
+         ==================================================================== -->
+    <div class="invitation-popup-wrapper" id="invitationPopup">
+      <div class="invitation-card-center" id="invitationCardCenter">
+        
+        <!-- Divine Radha Rani Shower / Golden Arch Invitation Card -->
+        <img src="images/personalized_card.jpg" class="card-bg-artwork" id="cardBgArtwork" alt="Pre-Radhashtami Invitation Card">
+
+        <!-- Dynamic Devotee Photo Overlay (Circular, fitted in golden floral frame) -->
+        <div class="devotee-photo-frame" id="devoteePhotoFrame">
+          <img src="images/vamshi_mohan_prabhu.jpg" class="devotee-photo-img" id="devoteePhoto" alt="Invited Devotee Photo">
+        </div>
+
+        <!-- Dynamic Devotee Name Overlay -->
+        <div class="devotee-name-plate" id="devoteeNamePlate">
+          <h2 class="devotee-name-title" id="devoteeName">H.G. VAMSHI MOHAN PRABHU</h2>
+        </div>
+
+        <!-- Close / Return to Poster Button -->
+        <button class="card-close-btn" id="cardCloseBtn" aria-label="Return to Darshan">✕ Back</button>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
