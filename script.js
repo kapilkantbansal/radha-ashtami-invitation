@@ -120,17 +120,18 @@ function initPersonalizedData() {
     if (idParam.toLowerCase().includes('vamshi')) {
       if (namePlate) namePlate.style.display = 'none'; // Built directly into artwork
       if (photoFrame) photoFrame.style.display = 'none';
-      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_card.jpg';
+      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_transparent.png';
     } else {
       // Dynamic prabhu overlay on card
       if (namePlate) namePlate.style.display = 'block';
       if (photoFrame) photoFrame.style.display = 'block';
+      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_transparent.png';
     }
   } else {
-    // Default: H.G. Vamshi Mohan Prabhu on dupatta card
+    // Default: H.G. Vamshi Mohan Prabhu on transparent dupatta card
     if (namePlate) namePlate.style.display = 'none';
     if (photoFrame) photoFrame.style.display = 'none';
-    if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_card.jpg';
+    if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_transparent.png';
   }
 }
 
@@ -145,8 +146,7 @@ function initDarshanController() {
   const lotusZone = document.getElementById('lotusFeetTouchZone');
   const lotusBtn = document.getElementById('lotusFeetBtn');
   const darshanFrame = document.getElementById('darshanFrame');
-  const invitationModal = document.getElementById('invitationCardContainer');
-  const cardCloseBtn = document.getElementById('cardCloseBtn');
+  const cardCenter = document.getElementById('invitationCardCenter');
 
   if (!video) return;
 
@@ -172,12 +172,12 @@ function initDarshanController() {
       video.classList.add('faded');
     }, 350);
 
-    // 4. Activate glowing Lotus Feet with pulsating golden rings (~1.2s after reveal)
+    // 4. Activate glowing Lotus Feet with pulsating dark-yellow rings (EXACTLY 3 seconds after image reveal)
     setTimeout(() => {
       if (lotusZone) {
         lotusZone.classList.add('active');
       }
-    }, 1200);
+    }, 3000);
   }
 
   // High precision time check
@@ -228,18 +228,17 @@ function initDarshanController() {
     });
   }
 
-  // Close Card Button -> Returns back to unblurred poster
-  if (cardCloseBtn) {
-    cardCloseBtn.addEventListener('click', () => {
-      // 1. Fade out invitation card
-      if (popupWrapper) popupWrapper.classList.remove('active');
-
-      // 2. Unblur poster background and restore lotus feet pointer
-      setTimeout(() => {
-        if (darshanFrame) darshanFrame.classList.remove('blurred');
-        document.body.classList.remove('card-open');
-        if (lotusZone) lotusZone.classList.remove('hidden');
-      }, 250);
+  // Tap anywhere outside the card to dismiss if desired
+  if (popupWrapper) {
+    popupWrapper.addEventListener('click', (e) => {
+      if (cardCenter && !cardCenter.contains(e.target)) {
+        popupWrapper.classList.remove('active');
+        setTimeout(() => {
+          if (darshanFrame) darshanFrame.classList.remove('blurred');
+          document.body.classList.remove('card-open');
+          if (lotusZone) lotusZone.classList.remove('hidden');
+        }, 250);
+      }
     });
   }
 }
