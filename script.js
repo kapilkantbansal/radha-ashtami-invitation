@@ -116,21 +116,21 @@ function initPersonalizedData() {
     if (nameEl) nameEl.textContent = profile.name;
     if (photoEl && profile.photo) photoEl.src = profile.photo;
     
-    // If it's Vamshi Mohan Prabhu, we can display the original high-res card directly!
+    // If it's Vamshi Mohan Prabhu, we can display the original high-res dupatta card directly!
     if (idParam.toLowerCase().includes('vamshi')) {
       if (namePlate) namePlate.style.display = 'none'; // Built directly into artwork
       if (photoFrame) photoFrame.style.display = 'none';
-      if (cardBgArtwork) cardBgArtwork.src = 'images/personalized_card.jpg';
+      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_card.jpg';
     } else {
       // Dynamic prabhu overlay on card
       if (namePlate) namePlate.style.display = 'block';
       if (photoFrame) photoFrame.style.display = 'block';
     }
   } else {
-    // Default: H.G. Vamshi Mohan Prabhu
+    // Default: H.G. Vamshi Mohan Prabhu on dupatta card
     if (namePlate) namePlate.style.display = 'none';
     if (photoFrame) photoFrame.style.display = 'none';
-    if (cardBgArtwork) cardBgArtwork.src = 'images/personalized_card.jpg';
+    if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_card.jpg';
   }
 }
 
