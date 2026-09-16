@@ -275,7 +275,7 @@ function initPetals() {
       this.vx = (Math.random() - 0.5) * 0.9;
       this.angle = Math.random() * 360;
       this.spin = (Math.random() - 0.5) * 3;
-      const colors = ['#ffaec9', '#ff9bb9', '#ffd1dc', '#fce4ec', '#fff0f5'];
+      const colors = ['#38bdf8', '#60a5fa', '#7dd3fc', '#0ea5e9', '#93c5fd', '#bae6fd'];
       this.color = colors[Math.floor(Math.random() * colors.length)];
       this.alpha = Math.random() * 0.5 + 0.35;
     }
