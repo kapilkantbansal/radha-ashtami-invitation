@@ -153,7 +153,7 @@ function initDarshanController() {
   video.muted = true;
   video.playsInline = true;
 
-  const TRANSITION_TIME = 5.7; // Exact 5.7-second transition
+  const TRANSITION_TIME = 5.0; // Transition at 5.0 seconds
   let transitionDone = false;
 
   function triggerDivineTransition() {
@@ -201,7 +201,7 @@ function initDarshanController() {
   video.addEventListener('playing', () => {
     setTimeout(() => {
       if (!transitionDone) triggerDivineTransition();
-    }, 5800);
+    }, 5100);
   }, { once: true });
 
 

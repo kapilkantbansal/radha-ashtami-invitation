@@ -190,12 +190,12 @@ body.card-open .backdrop-fill img {
    ========================================================================== */
 .lotus-feet-zone {
   position: absolute;
-  /* Positioned over the Lord's lotus feet on Image 1 (Y: ~67%, X: ~45%) */
-  top: 67%;
-  left: 45%;
+  /* Positioned over the Lord's lotus feet on Image 1 (Y: ~71%, X: ~44%) */
+  top: 71%;
+  left: 44%;
   transform: translate(-50%, -50%);
-  width: 155px; /* Enlarged from 110px */
-  height: 155px; /* Enlarged from 110px */
+  width: 90px;
+  height: 90px;
   z-index: 15;
   opacity: 0;
   pointer-events: none;
@@ -226,29 +226,30 @@ body.card-open .backdrop-fill img {
   outline: none;
 }
 
-/* Radiant Rich Dark Golden-Yellow Glow Aura */
+/* Translucent Dark Golden-Yellow Filled Target Circle - Lotus Feet 100% Visible Underneath! */
 .lotus-glow-aura {
   position: absolute;
-  inset: 16px;
+  inset: 10px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 183, 3, 0.8) 0%, rgba(217, 119, 6, 0.6) 45%, rgba(180, 83, 9, 0.3) 70%, transparent 85%);
-  filter: blur(8px);
+  border: 2px solid #d97706;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.45) 0%, rgba(217, 119, 6, 0.3) 55%, rgba(146, 64, 14, 0.12) 80%, transparent 100%);
+  box-shadow: 0 0 18px rgba(245, 158, 11, 0.85), inset 0 0 12px rgba(217, 119, 6, 0.4);
   animation: lotusAuraPulse 2.2s ease-in-out infinite alternate;
 }
 
 @keyframes lotusAuraPulse {
-  0% { transform: scale(0.88); opacity: 0.75; }
-  100% { transform: scale(1.22); opacity: 1; }
+  0% { transform: scale(0.92); opacity: 0.8; }
+  100% { transform: scale(1.1); opacity: 1; }
 }
 
 /* Rippling Dark Golden-Yellow Rings */
 .lotus-ring-pulse,
 .lotus-ring-pulse-outer {
   position: absolute;
-  inset: 14px;
+  inset: 10px;
   border-radius: 50%;
-  border: 2.5px solid #d97706; /* Dark golden yellow */
-  box-shadow: 0 0 18px rgba(245, 158, 11, 0.95), inset 0 0 14px rgba(217, 119, 6, 0.75);
+  border: 2px solid #d97706; /* Dark golden yellow */
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.8), inset 0 0 10px rgba(217, 119, 6, 0.5);
   pointer-events: none;
 }
 
@@ -270,44 +271,46 @@ body.card-open .backdrop-fill img {
     border-color: #d97706;
   }
   100% {
-    transform: scale(1.65);
+    transform: scale(1.55);
     opacity: 0;
     border-color: #92400e;
   }
 }
 
-/* Callout Indicator: Hand pointing directly to lotus feet */
+/* Callout Indicator: Kept strictly above the green box and below the lotus feet */
 .lotus-pointer-callout {
   position: absolute;
-  top: 130px; /* Adjusted for enlarged button */
+  top: 36px; /* Sits cleanly between the lotus circle and the green box */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 1px;
   pointer-events: none;
   white-space: nowrap;
 }
 
 .callout-hand {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
+  line-height: 1;
   animation: handBob 1.2s ease-in-out infinite alternate;
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.9));
 }
 
 @keyframes handBob {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-6px); }
+  100% { transform: translateY(-3px); }
 }
 
 .callout-pill {
   background: linear-gradient(135deg, rgba(69, 26, 3, 0.96), rgba(36, 12, 2, 0.98));
   border: 1.5px solid #fbbf24;
   color: #fffbeb;
-  padding: 5px 14px;
+  padding: 3px 10px;
   border-radius: 20px;
-  font-size: 0.76rem;
+  font-size: 0.68rem;
+  line-height: 1.1;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 700;
