@@ -27,38 +27,25 @@ draw_mask.ellipse((0, 0, size * 4, size * 4), fill=255)
 mask = mask.resize((size, size), Image.Resampling.LANCZOS)
 
 devotees = [
-    # 1. Recropped Vishnu Murti (wider, not overcropped, full head + tilak)
     {
-        'name': 'H.G. VISHNU MURTI PRABHU',
-        'line1': 'H.G. VISHNU',
-        'line2': 'MURTI PRABHU',
-        'id': 'vishnu_murti',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789627148037.jpg',
-        'crop_cx': 0.58,
-        'crop_cy': 0.38,
-        'crop_scale': 0.70
+        'name': 'H.G. JAI GOPAL PRABHU',
+        'line1': 'H.G. JAI GOPAL',
+        'line2': 'PRABHU',
+        'id': 'jai_gopal',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789629955479.jpg',
+        'crop_cx': 0.30,
+        'crop_cy': 0.15,
+        'crop_scale': 0.35
     },
-    # 2. HG Abhaya Hari Prabhu (Blowing Shankha)
     {
-        'name': 'H.G. ABHAYA HARI PRABHU',
-        'line1': 'H.G. ABHAYA',
-        'line2': 'HARI PRABHU',
-        'id': 'abhaya_hari',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789627791804.jpg',
-        'crop_cx': 0.60,
-        'crop_cy': 0.40,
-        'crop_scale': 0.65
-    },
-    # 3. HG Madan Gopal Prabhu (Looking down with glasses - wider crop so clearly recognizable)
-    {
-        'name': 'H.G. MADAN GOPAL PRABHU',
-        'line1': 'H.G. MADAN',
-        'line2': 'GOPAL PRABHU',
-        'id': 'madan_gopal',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789627955685.jpg',
-        'crop_cx': 0.49,
-        'crop_cy': 0.38,
-        'crop_scale': 0.72
+        'name': 'H.G. SOUMYA PRABHU',
+        'line1': 'H.G. SOUMYA',
+        'line2': 'PRABHU',
+        'id': 'soumya',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789629994171.jpg',
+        'crop_cx': 0.47,
+        'crop_cy': 0.67,
+        'crop_scale': 0.28
     }
 ]
 
@@ -125,6 +112,6 @@ with open(script_path, 'w', encoding='utf-8') as f:
     f.write(code)
 
 subprocess.run(['git', 'add', '.'], cwd=base_dir, check=True)
-subprocess.run(['git', 'commit', '-m', 'Add Abhaya Hari Prabhu, Madan Gopal Prabhu, and fix Vishnu Murti crop'], cwd=base_dir, check=True)
+subprocess.run(['git', 'commit', '-m', 'Add cards for HG Jai Gopal Prabhu and HG Soumya Prabhu'], cwd=base_dir, check=True)
 subprocess.run(['git', 'push', 'origin', 'main'], cwd=base_dir, check=True)
-print('SUCCESS_ALL_PUSHED')
+print('SUCCESS_BOTH_PUSHED_FAST')

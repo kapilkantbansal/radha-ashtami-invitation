@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.jai_gopal_prabhu': {
+    name: 'H.G. JAI GOPAL PRABHU',
+    photo: 'images/jai_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_jai_gopal.png'
+  },
+  'jai_gopal_prabhu': {
+    name: 'H.G. JAI GOPAL PRABHU',
+    photo: 'images/jai_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_jai_gopal.png'
+  },
+  'h.g.jai_gopal': {
+    name: 'H.G. JAI GOPAL PRABHU',
+    photo: 'images/jai_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_jai_gopal.png'
+  },
+  'jai_gopal': {
+    name: 'H.G. JAI GOPAL PRABHU',
+    photo: 'images/jai_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_jai_gopal.png'
+  },
+  'h.g.soumya_prabhu': {
+    name: 'H.G. SOUMYA PRABHU',
+    photo: 'images/soumya_prabhu.jpg',
+    card: 'images/radharani_dupatta_soumya.png'
+  },
+  'soumya_prabhu': {
+    name: 'H.G. SOUMYA PRABHU',
+    photo: 'images/soumya_prabhu.jpg',
+    card: 'images/radharani_dupatta_soumya.png'
+  },
+  'h.g.soumya': {
+    name: 'H.G. SOUMYA PRABHU',
+    photo: 'images/soumya_prabhu.jpg',
+    card: 'images/radharani_dupatta_soumya.png'
+  },
+  'soumya': {
+    name: 'H.G. SOUMYA PRABHU',
+    photo: 'images/soumya_prabhu.jpg',
+    card: 'images/radharani_dupatta_soumya.png'
+  },
   'h.g.vishnu_murti_prabhu': {
     name: 'H.G. VISHNU MURTI PRABHU',
     photo: 'images/vishnu_murti_prabhu.jpg',
