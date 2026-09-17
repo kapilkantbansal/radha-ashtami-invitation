@@ -28,24 +28,24 @@ mask = mask.resize((size, size), Image.Resampling.LANCZOS)
 
 devotees = [
     {
-        'name': 'H.G. RAGHAV CHARAN PRABHU',
-        'line1': 'H.G. RAGHAV',
-        'line2': 'CHARAN PRABHU',
-        'id': 'raghav_charan',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789625046752.jpg',
-        'crop_cx': 0.53,
-        'crop_cy': 0.16,
-        'crop_scale': 0.38
+        'name': 'H.G. ANANTSESH PRABHU',
+        'line1': 'H.G. ANANTSESH',
+        'line2': 'PRABHU',
+        'id': 'anantsesh',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789626489839.jpg',
+        'crop_cx': 0.59,
+        'crop_cy': 0.15,
+        'crop_scale': 0.32
     },
     {
-        'name': 'H.G. AMSHUMAAN PRABHU',
-        'line1': 'H.G. AMSHUMAAN',
-        'line2': 'PRABHU',
-        'id': 'amshumaan',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789625070365.jpg',
-        'crop_cx': 0.47,
-        'crop_cy': 0.16,
-        'crop_scale': 0.38
+        'name': 'H.G. KRISHNA CHARAN PRABHU',
+        'line1': 'H.G. KRISHNA',
+        'line2': 'CHARAN PRABHU',
+        'id': 'krishna_charan',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789626511094.jpg',
+        'crop_cx': 0.44,
+        'crop_cy': 0.66,
+        'crop_scale': 0.30
     }
 ]
 
@@ -112,6 +112,6 @@ with open(script_path, 'w', encoding='utf-8') as f:
     f.write(code)
 
 subprocess.run(['git', 'add', '.'], cwd=base_dir, check=True)
-subprocess.run(['git', 'commit', '-m', 'Add personalized cards for HG Raghav Charan Prabhu and HG Amshumaan Prabhu'], cwd=base_dir, check=True)
+subprocess.run(['git', 'commit', '-m', 'Add personalized cards for HG AnantSesh Prabhu and HG Krishna Charan Prabhu'], cwd=base_dir, check=True)
 subprocess.run(['git', 'push', 'origin', 'main'], cwd=base_dir, check=True)
-print('SUCCESS_PUSHED_BOTH')
+print('SUCCESS_BOTH_PUSHED')

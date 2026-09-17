@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.anantsesh_prabhu': {
+    name: 'H.G. ANANTSESH PRABHU',
+    photo: 'images/anantsesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_anantsesh.png'
+  },
+  'anantsesh_prabhu': {
+    name: 'H.G. ANANTSESH PRABHU',
+    photo: 'images/anantsesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_anantsesh.png'
+  },
+  'h.g.anantsesh': {
+    name: 'H.G. ANANTSESH PRABHU',
+    photo: 'images/anantsesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_anantsesh.png'
+  },
+  'anantsesh': {
+    name: 'H.G. ANANTSESH PRABHU',
+    photo: 'images/anantsesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_anantsesh.png'
+  },
+  'h.g.krishna_charan_prabhu': {
+    name: 'H.G. KRISHNA CHARAN PRABHU',
+    photo: 'images/krishna_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_krishna_charan.png'
+  },
+  'krishna_charan_prabhu': {
+    name: 'H.G. KRISHNA CHARAN PRABHU',
+    photo: 'images/krishna_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_krishna_charan.png'
+  },
+  'h.g.krishna_charan': {
+    name: 'H.G. KRISHNA CHARAN PRABHU',
+    photo: 'images/krishna_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_krishna_charan.png'
+  },
+  'krishna_charan': {
+    name: 'H.G. KRISHNA CHARAN PRABHU',
+    photo: 'images/krishna_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_krishna_charan.png'
+  },
   'h.g.raghav_charan_prabhu': {
     name: 'H.G. RAGHAV CHARAN PRABHU',
     photo: 'images/raghav_charan_prabhu.jpg',
