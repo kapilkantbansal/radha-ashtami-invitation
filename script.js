@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.balbhadra_prabhu': {
+    name: 'H.G. BALBHADRA PRABHU',
+    photo: 'images/balbhadra_prabhu.jpg',
+    card: 'images/radharani_dupatta_balbhadra.png'
+  },
+  'balbhadra_prabhu': {
+    name: 'H.G. BALBHADRA PRABHU',
+    photo: 'images/balbhadra_prabhu.jpg',
+    card: 'images/radharani_dupatta_balbhadra.png'
+  },
+  'h.g.balbhadra': {
+    name: 'H.G. BALBHADRA PRABHU',
+    photo: 'images/balbhadra_prabhu.jpg',
+    card: 'images/radharani_dupatta_balbhadra.png'
+  },
+  'balbhadra': {
+    name: 'H.G. BALBHADRA PRABHU',
+    photo: 'images/balbhadra_prabhu.jpg',
+    card: 'images/radharani_dupatta_balbhadra.png'
+  },
+  'h.g.gaursunder_prabhu': {
+    name: 'H.G. GAURSUNDER PRABHU',
+    photo: 'images/gaursunder_prabhu.jpg',
+    card: 'images/radharani_dupatta_gaursunder.png'
+  },
+  'gaursunder_prabhu': {
+    name: 'H.G. GAURSUNDER PRABHU',
+    photo: 'images/gaursunder_prabhu.jpg',
+    card: 'images/radharani_dupatta_gaursunder.png'
+  },
+  'h.g.gaursunder': {
+    name: 'H.G. GAURSUNDER PRABHU',
+    photo: 'images/gaursunder_prabhu.jpg',
+    card: 'images/radharani_dupatta_gaursunder.png'
+  },
+  'gaursunder': {
+    name: 'H.G. GAURSUNDER PRABHU',
+    photo: 'images/gaursunder_prabhu.jpg',
+    card: 'images/radharani_dupatta_gaursunder.png'
+  },
   'h.g.sri_vallabh_prabhu': {
     name: 'H.G. SRI VALLABH PRABHU',
     photo: 'images/sri_vallabh_prabhu.jpg',
