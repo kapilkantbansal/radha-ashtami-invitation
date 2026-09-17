@@ -66,13 +66,35 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.siddha_swaroop_prabhu': {
+    name: 'H.G. SIDDHA SWAROOP PRABHU',
+    photo: 'images/siddha_swaroop_prabhu.jpg',
+    card: 'images/radharani_dupatta_siddha_swaroop.png'
+  },
+  'siddha_swaroop_prabhu': {
+    name: 'H.G. SIDDHA SWAROOP PRABHU',
+    photo: 'images/siddha_swaroop_prabhu.jpg',
+    card: 'images/radharani_dupatta_siddha_swaroop.png'
+  },
+  'siddha_swaroop': {
+    name: 'H.G. SIDDHA SWAROOP PRABHU',
+    photo: 'images/siddha_swaroop_prabhu.jpg',
+    card: 'images/radharani_dupatta_siddha_swaroop.png'
+  },
+  'siddhaswaroop': {
+    name: 'H.G. SIDDHA SWAROOP PRABHU',
+    photo: 'images/siddha_swaroop_prabhu.jpg',
+    card: 'images/radharani_dupatta_siddha_swaroop.png'
+  },
   'h.g.vamshi_mohan_prabhu': {
     name: 'H.G. VAMSHI MOHAN PRABHU',
-    photo: 'images/vamshi_mohan_prabhu.jpg'
+    photo: 'images/vamshi_mohan_prabhu.jpg',
+    card: 'images/radharani_dupatta_transparent.png'
   },
   'vamshi_mohan_prabhu': {
     name: 'H.G. VAMSHI MOHAN PRABHU',
-    photo: 'images/vamshi_mohan_prabhu.jpg'
+    photo: 'images/vamshi_mohan_prabhu.jpg',
+    card: 'images/radharani_dupatta_transparent.png'
   },
   'radha_raman_prabhu': {
     name: 'H.G. RADHA RAMAN PRABHU',
@@ -116,8 +138,12 @@ function initPersonalizedData() {
     if (nameEl) nameEl.textContent = profile.name;
     if (photoEl && profile.photo) photoEl.src = profile.photo;
     
-    // If it's Vamshi Mohan Prabhu, we can display the original high-res dupatta card directly!
-    if (idParam.toLowerCase().includes('vamshi')) {
+    // If it's Siddha Swaroop Prabhu, display his dedicated high-res dupatta card!
+    if (idParam.toLowerCase().includes('siddha') || (profile.card && profile.card.includes('siddha'))) {
+      if (namePlate) namePlate.style.display = 'none';
+      if (photoFrame) photoFrame.style.display = 'none';
+      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_siddha_swaroop.png';
+    } else if (idParam.toLowerCase().includes('vamshi') || (profile.card && profile.card.includes('vamshi'))) {
       if (namePlate) namePlate.style.display = 'none'; // Built directly into artwork
       if (photoFrame) photoFrame.style.display = 'none';
       if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_transparent.png';
