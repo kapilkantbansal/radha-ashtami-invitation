@@ -66,6 +66,26 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.nikhileswar': {
+    name: 'H.G. NIKHILESWAR PRABHU',
+    photo: 'images/nikhileswar_prabhu.jpg',
+    card: 'images/radharani_dupatta_nikhileswar_prabhu.png'
+  },
+  'nikhileswar': {
+    name: 'H.G. NIKHILESWAR PRABHU',
+    photo: 'images/nikhileswar_prabhu.jpg',
+    card: 'images/radharani_dupatta_nikhileswar_prabhu.png'
+  },
+  'h.g.nikhileswar_prabhu': {
+    name: 'H.G. NIKHILESWAR PRABHU',
+    photo: 'images/nikhileswar_prabhu.jpg',
+    card: 'images/radharani_dupatta_nikhileswar_prabhu.png'
+  },
+  'nikhileswar_prabhu': {
+    name: 'H.G. NIKHILESWAR PRABHU',
+    photo: 'images/nikhileswar_prabhu.jpg',
+    card: 'images/radharani_dupatta_nikhileswar_prabhu.png'
+  },
   'h.g.prabal_krishna_prabhu': {
     name: 'H.G. PRABAL KRISHNA PRABHU',
     photo: 'images/prabal_krishna_prabhu.jpg',
