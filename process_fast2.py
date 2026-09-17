@@ -28,24 +28,24 @@ mask = mask.resize((size, size), Image.Resampling.LANCZOS)
 
 devotees = [
     {
-        'name': 'H.G. JAI GOPAL PRABHU',
-        'line1': 'H.G. JAI GOPAL',
+        'name': 'H.G. RAJENDRA PRABHU',
+        'line1': 'H.G. RAJENDRA',
         'line2': 'PRABHU',
-        'id': 'jai_gopal',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789629955479.jpg',
-        'crop_cx': 0.30,
-        'crop_cy': 0.15,
-        'crop_scale': 0.35
+        'id': 'rajendra',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789630525228.jpg',
+        'crop_cx': 0.80,
+        'crop_cy': 0.72,
+        'crop_scale': 0.28
     },
     {
-        'name': 'H.G. SOUMYA PRABHU',
-        'line1': 'H.G. SOUMYA',
+        'name': 'H.G. SANAT PRABHU',
+        'line1': 'H.G. SANAT',
         'line2': 'PRABHU',
-        'id': 'soumya',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789629994171.jpg',
-        'crop_cx': 0.47,
-        'crop_cy': 0.67,
-        'crop_scale': 0.28
+        'id': 'sanat',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789630611134.jpg',
+        'crop_cx': 0.57,
+        'crop_cy': 0.16,
+        'crop_scale': 0.25
     }
 ]
 
@@ -112,6 +112,6 @@ with open(script_path, 'w', encoding='utf-8') as f:
     f.write(code)
 
 subprocess.run(['git', 'add', '.'], cwd=base_dir, check=True)
-subprocess.run(['git', 'commit', '-m', 'Add cards for HG Jai Gopal Prabhu and HG Soumya Prabhu'], cwd=base_dir, check=True)
+subprocess.run(['git', 'commit', '-m', 'Add cards for HG Rajendra Prabhu and HG Sanat Prabhu'], cwd=base_dir, check=True)
 subprocess.run(['git', 'push', 'origin', 'main'], cwd=base_dir, check=True)
 print('SUCCESS_BOTH_PUSHED_FAST')

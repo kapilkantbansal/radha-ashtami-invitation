@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.rajendra_prabhu': {
+    name: 'H.G. RAJENDRA PRABHU',
+    photo: 'images/rajendra_prabhu.jpg',
+    card: 'images/radharani_dupatta_rajendra.png'
+  },
+  'rajendra_prabhu': {
+    name: 'H.G. RAJENDRA PRABHU',
+    photo: 'images/rajendra_prabhu.jpg',
+    card: 'images/radharani_dupatta_rajendra.png'
+  },
+  'h.g.rajendra': {
+    name: 'H.G. RAJENDRA PRABHU',
+    photo: 'images/rajendra_prabhu.jpg',
+    card: 'images/radharani_dupatta_rajendra.png'
+  },
+  'rajendra': {
+    name: 'H.G. RAJENDRA PRABHU',
+    photo: 'images/rajendra_prabhu.jpg',
+    card: 'images/radharani_dupatta_rajendra.png'
+  },
+  'h.g.sanat_prabhu': {
+    name: 'H.G. SANAT PRABHU',
+    photo: 'images/sanat_prabhu.jpg',
+    card: 'images/radharani_dupatta_sanat.png'
+  },
+  'sanat_prabhu': {
+    name: 'H.G. SANAT PRABHU',
+    photo: 'images/sanat_prabhu.jpg',
+    card: 'images/radharani_dupatta_sanat.png'
+  },
+  'h.g.sanat': {
+    name: 'H.G. SANAT PRABHU',
+    photo: 'images/sanat_prabhu.jpg',
+    card: 'images/radharani_dupatta_sanat.png'
+  },
+  'sanat': {
+    name: 'H.G. SANAT PRABHU',
+    photo: 'images/sanat_prabhu.jpg',
+    card: 'images/radharani_dupatta_sanat.png'
+  },
   'h.g.jai_gopal_prabhu': {
     name: 'H.G. JAI GOPAL PRABHU',
     photo: 'images/jai_gopal_prabhu.jpg',
