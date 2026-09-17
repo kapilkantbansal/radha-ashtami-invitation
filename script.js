@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.vishnu_murti_prabhu': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'vishnu_murti_prabhu': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'h.g.vishnu_murti': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'vishnu_murti': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'h.g.amitasan_prabhu': {
+    name: 'H.G. AMITASAN PRABHU',
+    photo: 'images/amitasan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amitasan.png'
+  },
+  'amitasan_prabhu': {
+    name: 'H.G. AMITASAN PRABHU',
+    photo: 'images/amitasan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amitasan.png'
+  },
+  'h.g.amitasan': {
+    name: 'H.G. AMITASAN PRABHU',
+    photo: 'images/amitasan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amitasan.png'
+  },
+  'amitasan': {
+    name: 'H.G. AMITASAN PRABHU',
+    photo: 'images/amitasan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amitasan.png'
+  },
   'h.g.anantsesh_prabhu': {
     name: 'H.G. ANANTSESH PRABHU',
     photo: 'images/anantsesh_prabhu.jpg',

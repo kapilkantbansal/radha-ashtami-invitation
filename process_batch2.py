@@ -28,24 +28,24 @@ mask = mask.resize((size, size), Image.Resampling.LANCZOS)
 
 devotees = [
     {
-        'name': 'H.G. ANANTSESH PRABHU',
-        'line1': 'H.G. ANANTSESH',
-        'line2': 'PRABHU',
-        'id': 'anantsesh',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789626489839.jpg',
-        'crop_cx': 0.59,
-        'crop_cy': 0.15,
-        'crop_scale': 0.32
+        'name': 'H.G. VISHNU MURTI PRABHU',
+        'line1': 'H.G. VISHNU',
+        'line2': 'MURTI PRABHU',
+        'id': 'vishnu_murti',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789627148037.jpg',
+        'crop_cx': 0.58,
+        'crop_cy': 0.44,
+        'crop_scale': 0.50
     },
     {
-        'name': 'H.G. KRISHNA CHARAN PRABHU',
-        'line1': 'H.G. KRISHNA',
-        'line2': 'CHARAN PRABHU',
-        'id': 'krishna_charan',
-        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789626511094.jpg',
-        'crop_cx': 0.44,
-        'crop_cy': 0.66,
-        'crop_scale': 0.30
+        'name': 'H.G. AMITASAN PRABHU',
+        'line1': 'H.G. AMITASAN',
+        'line2': 'PRABHU',
+        'id': 'amitasan',
+        'img_path': r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789627239985.jpg',
+        'crop_cx': 0.59,
+        'crop_cy': 0.15,
+        'crop_scale': 0.22
     }
 ]
 
@@ -112,6 +112,6 @@ with open(script_path, 'w', encoding='utf-8') as f:
     f.write(code)
 
 subprocess.run(['git', 'add', '.'], cwd=base_dir, check=True)
-subprocess.run(['git', 'commit', '-m', 'Add personalized cards for HG AnantSesh Prabhu and HG Krishna Charan Prabhu'], cwd=base_dir, check=True)
+subprocess.run(['git', 'commit', '-m', 'Add personalized cards for HG Vishnu Murti Prabhu and HG Amitasan Prabhu'], cwd=base_dir, check=True)
 subprocess.run(['git', 'push', 'origin', 'main'], cwd=base_dir, check=True)
 print('SUCCESS_BOTH_PUSHED')
