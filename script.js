@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.raghav_charan_prabhu': {
+    name: 'H.G. RAGHAV CHARAN PRABHU',
+    photo: 'images/raghav_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghav_charan.png'
+  },
+  'raghav_charan_prabhu': {
+    name: 'H.G. RAGHAV CHARAN PRABHU',
+    photo: 'images/raghav_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghav_charan.png'
+  },
+  'h.g.raghav_charan': {
+    name: 'H.G. RAGHAV CHARAN PRABHU',
+    photo: 'images/raghav_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghav_charan.png'
+  },
+  'raghav_charan': {
+    name: 'H.G. RAGHAV CHARAN PRABHU',
+    photo: 'images/raghav_charan_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghav_charan.png'
+  },
+  'h.g.amshumaan_prabhu': {
+    name: 'H.G. AMSHUMAAN PRABHU',
+    photo: 'images/amshumaan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amshumaan.png'
+  },
+  'amshumaan_prabhu': {
+    name: 'H.G. AMSHUMAAN PRABHU',
+    photo: 'images/amshumaan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amshumaan.png'
+  },
+  'h.g.amshumaan': {
+    name: 'H.G. AMSHUMAAN PRABHU',
+    photo: 'images/amshumaan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amshumaan.png'
+  },
+  'amshumaan': {
+    name: 'H.G. AMSHUMAAN PRABHU',
+    photo: 'images/amshumaan_prabhu.jpg',
+    card: 'images/radharani_dupatta_amshumaan.png'
+  },
   'h.g.nikhileswar': {
     name: 'H.G. NIKHILESWAR PRABHU',
     photo: 'images/nikhileswar_prabhu.jpg',
