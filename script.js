@@ -86,6 +86,66 @@ const DEVOTEE_REGISTRY = {
     photo: 'images/vishnu_murti_prabhu.jpg',
     card: 'images/radharani_dupatta_vishnu_murti.png'
   },
+  'h.g.abhaya_hari_prabhu': {
+    name: 'H.G. ABHAYA HARI PRABHU',
+    photo: 'images/abhaya_hari_prabhu.jpg',
+    card: 'images/radharani_dupatta_abhaya_hari.png'
+  },
+  'abhaya_hari_prabhu': {
+    name: 'H.G. ABHAYA HARI PRABHU',
+    photo: 'images/abhaya_hari_prabhu.jpg',
+    card: 'images/radharani_dupatta_abhaya_hari.png'
+  },
+  'h.g.abhaya_hari': {
+    name: 'H.G. ABHAYA HARI PRABHU',
+    photo: 'images/abhaya_hari_prabhu.jpg',
+    card: 'images/radharani_dupatta_abhaya_hari.png'
+  },
+  'abhaya_hari': {
+    name: 'H.G. ABHAYA HARI PRABHU',
+    photo: 'images/abhaya_hari_prabhu.jpg',
+    card: 'images/radharani_dupatta_abhaya_hari.png'
+  },
+  'h.g.madan_gopal_prabhu': {
+    name: 'H.G. MADAN GOPAL PRABHU',
+    photo: 'images/madan_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_madan_gopal.png'
+  },
+  'madan_gopal_prabhu': {
+    name: 'H.G. MADAN GOPAL PRABHU',
+    photo: 'images/madan_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_madan_gopal.png'
+  },
+  'h.g.madan_gopal': {
+    name: 'H.G. MADAN GOPAL PRABHU',
+    photo: 'images/madan_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_madan_gopal.png'
+  },
+  'madan_gopal': {
+    name: 'H.G. MADAN GOPAL PRABHU',
+    photo: 'images/madan_gopal_prabhu.jpg',
+    card: 'images/radharani_dupatta_madan_gopal.png'
+  },
+  'h.g.vishnu_murti_prabhu': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'vishnu_murti_prabhu': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'h.g.vishnu_murti': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
+  'vishnu_murti': {
+    name: 'H.G. VISHNU MURTI PRABHU',
+    photo: 'images/vishnu_murti_prabhu.jpg',
+    card: 'images/radharani_dupatta_vishnu_murti.png'
+  },
   'h.g.amitasan_prabhu': {
     name: 'H.G. AMITASAN PRABHU',
     photo: 'images/amitasan_prabhu.jpg',
