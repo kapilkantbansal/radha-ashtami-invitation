@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.sri_vallabh_prabhu': {
+    name: 'H.G. SRI VALLABH PRABHU',
+    photo: 'images/sri_vallabh_prabhu.jpg',
+    card: 'images/radharani_dupatta_sri_vallabh.png'
+  },
+  'sri_vallabh_prabhu': {
+    name: 'H.G. SRI VALLABH PRABHU',
+    photo: 'images/sri_vallabh_prabhu.jpg',
+    card: 'images/radharani_dupatta_sri_vallabh.png'
+  },
+  'h.g.sri_vallabh': {
+    name: 'H.G. SRI VALLABH PRABHU',
+    photo: 'images/sri_vallabh_prabhu.jpg',
+    card: 'images/radharani_dupatta_sri_vallabh.png'
+  },
+  'sri_vallabh': {
+    name: 'H.G. SRI VALLABH PRABHU',
+    photo: 'images/sri_vallabh_prabhu.jpg',
+    card: 'images/radharani_dupatta_sri_vallabh.png'
+  },
+  'h.g.anadi_prabhu': {
+    name: 'H.G. ANADI PRABHU',
+    photo: 'images/anadi_prabhu.jpg',
+    card: 'images/radharani_dupatta_anadi.png'
+  },
+  'anadi_prabhu': {
+    name: 'H.G. ANADI PRABHU',
+    photo: 'images/anadi_prabhu.jpg',
+    card: 'images/radharani_dupatta_anadi.png'
+  },
+  'h.g.anadi': {
+    name: 'H.G. ANADI PRABHU',
+    photo: 'images/anadi_prabhu.jpg',
+    card: 'images/radharani_dupatta_anadi.png'
+  },
+  'anadi': {
+    name: 'H.G. ANADI PRABHU',
+    photo: 'images/anadi_prabhu.jpg',
+    card: 'images/radharani_dupatta_anadi.png'
+  },
   'h.g.rajendra_prabhu': {
     name: 'H.G. RAJENDRA PRABHU',
     photo: 'images/rajendra_prabhu.jpg',
