@@ -5,19 +5,22 @@ from PIL import Image, ImageDraw, ImageFont
 base_dir = r'D:\radha-ashtami'
 images_dir = os.path.join(base_dir, 'images')
 
-photo_path = r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789643581113.jpg'
+photo_path = r'C:\Users\pc\.gemini\antigravity\brain\ab98e414-96f1-47f0-bd3d-25b94e55a072\.user_uploaded\media_1789655883795.jpg'
+devotee_name = 'H.G. PREMANAND PRABHU'
+devotee_id = 'premanand'
+
 src = Image.open(photo_path).convert('RGB')
 w, h = src.size
 
-# Bottom center devotee (leading kirtan with mic): cx ~ 0.525, cy ~ 0.658
-crop_size = int(min(w, h) * 0.22)
-cx = int(w * 0.525)
-cy = int(h * 0.658)
+crop_size = int(min(w, h) * 0.72)
+cx = int(w * 0.50)
+cy = int(h * 0.40)
 left = max(0, min(w - crop_size, cx - crop_size // 2))
 top = max(0, min(h - crop_size, cy - crop_size // 2))
 
 profile_sq = src.crop((left, top, left + crop_size, top + crop_size)).resize((500, 500), Image.Resampling.LANCZOS)
-profile_sq.save(os.path.join(images_dir, 'prabal_krishna_prabhu.jpg'), quality=95)
+prof_file = f'{devotee_id}_prabhu.jpg'
+profile_sq.save(os.path.join(images_dir, prof_file), quality=95)
 
 # Template & clean name area
 card_orig = Image.open(os.path.join(images_dir, 'radharani_dupatta_transparent.png')).convert('RGBA')
@@ -46,8 +49,8 @@ font_bold = ImageFont.truetype('georgiab.ttf', 20)
 font_sub = ImageFont.truetype('georgiab.ttf', 19)
 text_color = (112, 14, 24, 255)
 
-line1 = 'H.G. PRABAL'
-line2 = 'KRISHNA PRABHU'
+line1 = 'H.G. PREMANAND'
+line2 = 'PRABHU'
 bb1 = draw.textbbox((0, 0), line1, font=font_sub)
 w1 = bb1[2] - bb1[0]
 bb2 = draw.textbbox((0, 0), line2, font=font_bold)
@@ -55,10 +58,41 @@ w2 = bb2[2] - bb2[0]
 draw.text((cx_c - w1 // 2, 638), line1, fill=text_color, font=font_sub)
 draw.text((cx_c - w2 // 2, 658), line2, fill=text_color, font=font_bold)
 
-card_file = 'radharani_dupatta_prabal_krishna.png'
+card_file = f'radharani_dupatta_{devotee_id}.png'
 card.save(os.path.join(images_dir, card_file), 'PNG')
 
+# Script.js
+script_path = os.path.join(base_dir, 'script.js')
+with open(script_path, 'r', encoding='utf-8') as f:
+    code = f.read()
+
+entry = f"""  'h.g.{devotee_id}_prabhu': {{
+    name: '{devotee_name}',
+    photo: 'images/{prof_file}',
+    card: 'images/{card_file}'
+  }},
+  '{devotee_id}_prabhu': {{
+    name: '{devotee_name}',
+    photo: 'images/{prof_file}',
+    card: 'images/{card_file}'
+  }},
+  'h.g.{devotee_id}': {{
+    name: '{devotee_name}',
+    photo: 'images/{prof_file}',
+    card: 'images/{card_file}'
+  }},
+  '{devotee_id}': {{
+    name: '{devotee_name}',
+    photo: 'images/{prof_file}',
+    card: 'images/{card_file}'
+  }},"""
+
+if f"'{devotee_id}':" not in code:
+    code = code.replace('const DEVOTEE_REGISTRY = {', 'const DEVOTEE_REGISTRY = {\n' + entry)
+    with open(script_path, 'w', encoding='utf-8') as f:
+        f.write(code)
+
 subprocess.run(['git', 'add', '.'], cwd=base_dir, check=True)
-subprocess.run(['git', 'commit', '-m', 'Update photo for HG Prabal Krishna Prabhu (bottom center kirtan)'], cwd=base_dir, check=True)
+subprocess.run(['git', 'commit', '-m', f'Add card for {devotee_name}'], cwd=base_dir, check=True)
 subprocess.run(['git', 'push', 'origin', 'main'], cwd=base_dir, check=True)
-print('SUCCESS_UPDATED_PRABAL_KRISHNA')
+print('SUCCESS_PREMANAND_PUSHED')

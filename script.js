@@ -66,6 +66,26 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.premanand_prabhu': {
+    name: 'H.G. PREMANAND PRABHU',
+    photo: 'images/premanand_prabhu.jpg',
+    card: 'images/radharani_dupatta_premanand.png'
+  },
+  'premanand_prabhu': {
+    name: 'H.G. PREMANAND PRABHU',
+    photo: 'images/premanand_prabhu.jpg',
+    card: 'images/radharani_dupatta_premanand.png'
+  },
+  'h.g.premanand': {
+    name: 'H.G. PREMANAND PRABHU',
+    photo: 'images/premanand_prabhu.jpg',
+    card: 'images/radharani_dupatta_premanand.png'
+  },
+  'premanand': {
+    name: 'H.G. PREMANAND PRABHU',
+    photo: 'images/premanand_prabhu.jpg',
+    card: 'images/radharani_dupatta_premanand.png'
+  },
   'h.g.balbhadra_prabhu': {
     name: 'H.G. BALBHADRA PRABHU',
     photo: 'images/balbhadra_prabhu.jpg',
