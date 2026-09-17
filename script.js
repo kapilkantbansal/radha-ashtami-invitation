@@ -66,6 +66,26 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.prabal_krishna_prabhu': {
+    name: 'H.G. PRABAL KRISHNA PRABHU',
+    photo: 'images/prabal_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_prabal_krishna.png'
+  },
+  'prabal_krishna_prabhu': {
+    name: 'H.G. PRABAL KRISHNA PRABHU',
+    photo: 'images/prabal_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_prabal_krishna.png'
+  },
+  'prabal_krishna': {
+    name: 'H.G. PRABAL KRISHNA PRABHU',
+    photo: 'images/prabal_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_prabal_krishna.png'
+  },
+  'prabalkrishna': {
+    name: 'H.G. PRABAL KRISHNA PRABHU',
+    photo: 'images/prabal_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_prabal_krishna.png'
+  },
   'h.g.siddha_swaroop_prabhu': {
     name: 'H.G. SIDDHA SWAROOP PRABHU',
     photo: 'images/siddha_swaroop_prabhu.jpg',
@@ -138,15 +158,11 @@ function initPersonalizedData() {
     if (nameEl) nameEl.textContent = profile.name;
     if (photoEl && profile.photo) photoEl.src = profile.photo;
     
-    // If it's Siddha Swaroop Prabhu, display his dedicated high-res dupatta card!
-    if (idParam.toLowerCase().includes('siddha') || (profile.card && profile.card.includes('siddha'))) {
+    // Dedicated pre-rendered high-res dupatta card
+    if (profile.card) {
       if (namePlate) namePlate.style.display = 'none';
       if (photoFrame) photoFrame.style.display = 'none';
-      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_siddha_swaroop.png';
-    } else if (idParam.toLowerCase().includes('vamshi') || (profile.card && profile.card.includes('vamshi'))) {
-      if (namePlate) namePlate.style.display = 'none'; // Built directly into artwork
-      if (photoFrame) photoFrame.style.display = 'none';
-      if (cardBgArtwork) cardBgArtwork.src = 'images/radharani_dupatta_transparent.png';
+      if (cardBgArtwork) cardBgArtwork.src = profile.card;
     } else {
       // Dynamic prabhu overlay on card
       if (namePlate) namePlate.style.display = 'block';
