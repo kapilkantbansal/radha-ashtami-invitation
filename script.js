@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.radha_priya_prabhu': {
+    name: 'H.G. RADHA PRIYA PRABHU',
+    photo: 'images/radha_priya_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_priya.png'
+  },
+  'radha_priya_prabhu': {
+    name: 'H.G. RADHA PRIYA PRABHU',
+    photo: 'images/radha_priya_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_priya.png'
+  },
+  'h.g.radha_priya': {
+    name: 'H.G. RADHA PRIYA PRABHU',
+    photo: 'images/radha_priya_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_priya.png'
+  },
+  'radha_priya': {
+    name: 'H.G. RADHA PRIYA PRABHU',
+    photo: 'images/radha_priya_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_priya.png'
+  },
+  'h.g.kalamidhi_prabhu': {
+    name: 'H.G. KALAMIDHI PRABHU',
+    photo: 'images/kalamidhi_prabhu.jpg',
+    card: 'images/radharani_dupatta_kalamidhi.png'
+  },
+  'kalamidhi_prabhu': {
+    name: 'H.G. KALAMIDHI PRABHU',
+    photo: 'images/kalamidhi_prabhu.jpg',
+    card: 'images/radharani_dupatta_kalamidhi.png'
+  },
+  'h.g.kalamidhi': {
+    name: 'H.G. KALAMIDHI PRABHU',
+    photo: 'images/kalamidhi_prabhu.jpg',
+    card: 'images/radharani_dupatta_kalamidhi.png'
+  },
+  'kalamidhi': {
+    name: 'H.G. KALAMIDHI PRABHU',
+    photo: 'images/kalamidhi_prabhu.jpg',
+    card: 'images/radharani_dupatta_kalamidhi.png'
+  },
   'h.g.jagatbandhu_prabhu': {
     name: 'H.G. JAGATBANDHU PRABHU',
     photo: 'images/jagatbandhu_prabhu.jpg',
