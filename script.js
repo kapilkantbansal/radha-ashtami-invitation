@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.radha_madhav_prabhu': {
+    name: 'H.G. RADHA MADHAV PRABHU',
+    photo: 'images/radha_madhav_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_madhav.png'
+  },
+  'radha_madhav_prabhu': {
+    name: 'H.G. RADHA MADHAV PRABHU',
+    photo: 'images/radha_madhav_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_madhav.png'
+  },
+  'h.g.radha_madhav': {
+    name: 'H.G. RADHA MADHAV PRABHU',
+    photo: 'images/radha_madhav_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_madhav.png'
+  },
+  'radha_madhav': {
+    name: 'H.G. RADHA MADHAV PRABHU',
+    photo: 'images/radha_madhav_prabhu.jpg',
+    card: 'images/radharani_dupatta_radha_madhav.png'
+  },
+  'h.g.pawan_atmaj_prabhu': {
+    name: 'H.G. PAWAN ATMAJ PRABHU',
+    photo: 'images/pawan_atmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_pawan_atmaj.png'
+  },
+  'pawan_atmaj_prabhu': {
+    name: 'H.G. PAWAN ATMAJ PRABHU',
+    photo: 'images/pawan_atmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_pawan_atmaj.png'
+  },
+  'h.g.pawan_atmaj': {
+    name: 'H.G. PAWAN ATMAJ PRABHU',
+    photo: 'images/pawan_atmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_pawan_atmaj.png'
+  },
+  'pawan_atmaj': {
+    name: 'H.G. PAWAN ATMAJ PRABHU',
+    photo: 'images/pawan_atmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_pawan_atmaj.png'
+  },
   'h.g.swaroop_krishna_prabhu': {
     name: 'H.G. SWAROOP KRISHNA PRABHU',
     photo: 'images/swaroop_krishna_prabhu.jpg',
