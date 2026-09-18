@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.harisharan_prabhu': {
+    name: 'H.G. HARISHARAN PRABHU',
+    photo: 'images/harisharan_prabhu.jpg',
+    card: 'images/radharani_dupatta_harisharan.png'
+  },
+  'harisharan_prabhu': {
+    name: 'H.G. HARISHARAN PRABHU',
+    photo: 'images/harisharan_prabhu.jpg',
+    card: 'images/radharani_dupatta_harisharan.png'
+  },
+  'h.g.harisharan': {
+    name: 'H.G. HARISHARAN PRABHU',
+    photo: 'images/harisharan_prabhu.jpg',
+    card: 'images/radharani_dupatta_harisharan.png'
+  },
+  'harisharan': {
+    name: 'H.G. HARISHARAN PRABHU',
+    photo: 'images/harisharan_prabhu.jpg',
+    card: 'images/radharani_dupatta_harisharan.png'
+  },
+  'h.g.phanindra_prabhu': {
+    name: 'H.G. PHANINDRA PRABHU',
+    photo: 'images/phanindra_prabhu.jpg',
+    card: 'images/radharani_dupatta_phanindra.png'
+  },
+  'phanindra_prabhu': {
+    name: 'H.G. PHANINDRA PRABHU',
+    photo: 'images/phanindra_prabhu.jpg',
+    card: 'images/radharani_dupatta_phanindra.png'
+  },
+  'h.g.phanindra': {
+    name: 'H.G. PHANINDRA PRABHU',
+    photo: 'images/phanindra_prabhu.jpg',
+    card: 'images/radharani_dupatta_phanindra.png'
+  },
+  'phanindra': {
+    name: 'H.G. PHANINDRA PRABHU',
+    photo: 'images/phanindra_prabhu.jpg',
+    card: 'images/radharani_dupatta_phanindra.png'
+  },
   'h.g.brahad_bhanu_prabhu': {
     name: 'H.G. BRAHAD BHANU PRABHU',
     photo: 'images/brahad_bhanu_prabhu.jpg',
