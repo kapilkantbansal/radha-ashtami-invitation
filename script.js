@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.raghuveer_prabhu': {
+    name: 'H.G. RAGHUVEER PRABHU',
+    photo: 'images/raghuveer_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghuveer.png'
+  },
+  'raghuveer_prabhu': {
+    name: 'H.G. RAGHUVEER PRABHU',
+    photo: 'images/raghuveer_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghuveer.png'
+  },
+  'h.g.raghuveer': {
+    name: 'H.G. RAGHUVEER PRABHU',
+    photo: 'images/raghuveer_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghuveer.png'
+  },
+  'raghuveer': {
+    name: 'H.G. RAGHUVEER PRABHU',
+    photo: 'images/raghuveer_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghuveer.png'
+  },
+  'h.g.purna_chandra_prabhu': {
+    name: 'H.G. PURNA CHANDRA PRABHU',
+    photo: 'images/purna_chandra_prabhu.jpg',
+    card: 'images/radharani_dupatta_purna_chandra.png'
+  },
+  'purna_chandra_prabhu': {
+    name: 'H.G. PURNA CHANDRA PRABHU',
+    photo: 'images/purna_chandra_prabhu.jpg',
+    card: 'images/radharani_dupatta_purna_chandra.png'
+  },
+  'h.g.purna_chandra': {
+    name: 'H.G. PURNA CHANDRA PRABHU',
+    photo: 'images/purna_chandra_prabhu.jpg',
+    card: 'images/radharani_dupatta_purna_chandra.png'
+  },
+  'purna_chandra': {
+    name: 'H.G. PURNA CHANDRA PRABHU',
+    photo: 'images/purna_chandra_prabhu.jpg',
+    card: 'images/radharani_dupatta_purna_chandra.png'
+  },
   'h.g.harikesh_prabhu': {
     name: 'H.G. HARIKESH PRABHU',
     photo: 'images/harikesh_prabhu.jpg',
