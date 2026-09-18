@@ -66,6 +66,26 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'all_sadhaka_group': {
+    name: 'ALL SADHAKA GROUP',
+    photo: 'images/all_sadhaka_group.jpg',
+    card: 'images/radharani_dupatta_all_sadhaka_group.png'
+  },
+  'sadhaka_group': {
+    name: 'ALL SADHAKA GROUP',
+    photo: 'images/all_sadhaka_group.jpg',
+    card: 'images/radharani_dupatta_all_sadhaka_group.png'
+  },
+  'all_sadhakas': {
+    name: 'ALL SADHAKA GROUP',
+    photo: 'images/all_sadhaka_group.jpg',
+    card: 'images/radharani_dupatta_all_sadhaka_group.png'
+  },
+  'sadhaka': {
+    name: 'ALL SADHAKA GROUP',
+    photo: 'images/all_sadhaka_group.jpg',
+    card: 'images/radharani_dupatta_all_sadhaka_group.png'
+  },
   'h.g.vraj_vilas_prabhu': {
     name: 'H.G. VRAJ VILAS PRABHU',
     photo: 'images/vraj_vilas_prabhu.jpg',
