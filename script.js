@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.swaroop_krishna_prabhu': {
+    name: 'H.G. SWAROOP KRISHNA PRABHU',
+    photo: 'images/swaroop_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_swaroop_krishna.png'
+  },
+  'swaroop_krishna_prabhu': {
+    name: 'H.G. SWAROOP KRISHNA PRABHU',
+    photo: 'images/swaroop_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_swaroop_krishna.png'
+  },
+  'h.g.swaroop_krishna': {
+    name: 'H.G. SWAROOP KRISHNA PRABHU',
+    photo: 'images/swaroop_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_swaroop_krishna.png'
+  },
+  'swaroop_krishna': {
+    name: 'H.G. SWAROOP KRISHNA PRABHU',
+    photo: 'images/swaroop_krishna_prabhu.jpg',
+    card: 'images/radharani_dupatta_swaroop_krishna.png'
+  },
+  'h.g.raghupati_prabhu': {
+    name: 'H.G. RAGHUPATI PRABHU',
+    photo: 'images/raghupati_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghupati.png'
+  },
+  'raghupati_prabhu': {
+    name: 'H.G. RAGHUPATI PRABHU',
+    photo: 'images/raghupati_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghupati.png'
+  },
+  'h.g.raghupati': {
+    name: 'H.G. RAGHUPATI PRABHU',
+    photo: 'images/raghupati_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghupati.png'
+  },
+  'raghupati': {
+    name: 'H.G. RAGHUPATI PRABHU',
+    photo: 'images/raghupati_prabhu.jpg',
+    card: 'images/radharani_dupatta_raghupati.png'
+  },
   'h.g.kirti_narayan_prabhu': {
     name: 'H.G. KIRTI NARAYAN PRABHU',
     photo: 'images/kirti_narayan_prabhu.jpg',
