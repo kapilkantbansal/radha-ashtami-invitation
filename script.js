@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.jagatbandhu_prabhu': {
+    name: 'H.G. JAGATBANDHU PRABHU',
+    photo: 'images/jagatbandhu_prabhu.jpg',
+    card: 'images/radharani_dupatta_jagatbandhu.png'
+  },
+  'jagatbandhu_prabhu': {
+    name: 'H.G. JAGATBANDHU PRABHU',
+    photo: 'images/jagatbandhu_prabhu.jpg',
+    card: 'images/radharani_dupatta_jagatbandhu.png'
+  },
+  'h.g.jagatbandhu': {
+    name: 'H.G. JAGATBANDHU PRABHU',
+    photo: 'images/jagatbandhu_prabhu.jpg',
+    card: 'images/radharani_dupatta_jagatbandhu.png'
+  },
+  'jagatbandhu': {
+    name: 'H.G. JAGATBANDHU PRABHU',
+    photo: 'images/jagatbandhu_prabhu.jpg',
+    card: 'images/radharani_dupatta_jagatbandhu.png'
+  },
+  'h.g.kuru_praveen_prabhu': {
+    name: 'H.G. KURU PRAVEEN PRABHU',
+    photo: 'images/kuru_praveen_prabhu.jpg',
+    card: 'images/radharani_dupatta_kuru_praveen.png'
+  },
+  'kuru_praveen_prabhu': {
+    name: 'H.G. KURU PRAVEEN PRABHU',
+    photo: 'images/kuru_praveen_prabhu.jpg',
+    card: 'images/radharani_dupatta_kuru_praveen.png'
+  },
+  'h.g.kuru_praveen': {
+    name: 'H.G. KURU PRAVEEN PRABHU',
+    photo: 'images/kuru_praveen_prabhu.jpg',
+    card: 'images/radharani_dupatta_kuru_praveen.png'
+  },
+  'kuru_praveen': {
+    name: 'H.G. KURU PRAVEEN PRABHU',
+    photo: 'images/kuru_praveen_prabhu.jpg',
+    card: 'images/radharani_dupatta_kuru_praveen.png'
+  },
   'h.g.raghuveer_prabhu': {
     name: 'H.G. RAGHUVEER PRABHU',
     photo: 'images/raghuveer_prabhu.jpg',
