@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.harikesh_prabhu': {
+    name: 'H.G. HARIKESH PRABHU',
+    photo: 'images/harikesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_harikesh.png'
+  },
+  'harikesh_prabhu': {
+    name: 'H.G. HARIKESH PRABHU',
+    photo: 'images/harikesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_harikesh.png'
+  },
+  'h.g.harikesh': {
+    name: 'H.G. HARIKESH PRABHU',
+    photo: 'images/harikesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_harikesh.png'
+  },
+  'harikesh': {
+    name: 'H.G. HARIKESH PRABHU',
+    photo: 'images/harikesh_prabhu.jpg',
+    card: 'images/radharani_dupatta_harikesh.png'
+  },
+  'h.g.girdhari_prabhu': {
+    name: 'H.G. GIRDHARI PRABHU',
+    photo: 'images/girdhari_prabhu.jpg',
+    card: 'images/radharani_dupatta_girdhari.png'
+  },
+  'girdhari_prabhu': {
+    name: 'H.G. GIRDHARI PRABHU',
+    photo: 'images/girdhari_prabhu.jpg',
+    card: 'images/radharani_dupatta_girdhari.png'
+  },
+  'h.g.girdhari': {
+    name: 'H.G. GIRDHARI PRABHU',
+    photo: 'images/girdhari_prabhu.jpg',
+    card: 'images/radharani_dupatta_girdhari.png'
+  },
+  'girdhari': {
+    name: 'H.G. GIRDHARI PRABHU',
+    photo: 'images/girdhari_prabhu.jpg',
+    card: 'images/radharani_dupatta_girdhari.png'
+  },
   'h.g.premanand_prabhu': {
     name: 'H.G. PREMANAND PRABHU',
     photo: 'images/premanand_prabhu.jpg',
