@@ -66,6 +66,46 @@ function initBackgroundMusic() {
    ========================================================================== */
 // Pre-registered Prabhu profiles dictionary (matching the Vercel site architecture)
 const DEVOTEE_REGISTRY = {
+  'h.g.suranand_prabhu': {
+    name: 'H.G. SURANAND PRABHU',
+    photo: 'images/suranand_prabhu.jpg',
+    card: 'images/radharani_dupatta_suranand.png'
+  },
+  'suranand_prabhu': {
+    name: 'H.G. SURANAND PRABHU',
+    photo: 'images/suranand_prabhu.jpg',
+    card: 'images/radharani_dupatta_suranand.png'
+  },
+  'h.g.suranand': {
+    name: 'H.G. SURANAND PRABHU',
+    photo: 'images/suranand_prabhu.jpg',
+    card: 'images/radharani_dupatta_suranand.png'
+  },
+  'suranand': {
+    name: 'H.G. SURANAND PRABHU',
+    photo: 'images/suranand_prabhu.jpg',
+    card: 'images/radharani_dupatta_suranand.png'
+  },
+  'h.g.anilatmaj_prabhu': {
+    name: 'H.G. ANILATMAJ PRABHU',
+    photo: 'images/anilatmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_anilatmaj.png'
+  },
+  'anilatmaj_prabhu': {
+    name: 'H.G. ANILATMAJ PRABHU',
+    photo: 'images/anilatmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_anilatmaj.png'
+  },
+  'h.g.anilatmaj': {
+    name: 'H.G. ANILATMAJ PRABHU',
+    photo: 'images/anilatmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_anilatmaj.png'
+  },
+  'anilatmaj': {
+    name: 'H.G. ANILATMAJ PRABHU',
+    photo: 'images/anilatmaj_prabhu.jpg',
+    card: 'images/radharani_dupatta_anilatmaj.png'
+  },
   'h.g.radha_madhav_prabhu': {
     name: 'H.G. RADHA MADHAV PRABHU',
     photo: 'images/radha_madhav_prabhu.jpg',
